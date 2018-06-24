@@ -1,0 +1,13 @@
+name: Coinflip
+version: 1.0
+main: fr.zodiak.coinflip.Coinflip
+author: Zodiak
+description: A simple coinflip plugin
+softdepend: [PlaceholderAPI, Vault]
+commands:
+ coinflip:
+  permission: coinflip.use
+  aliases: [cf, coin, coingame, flipacoin]
+permissions:
+ coinflip.use:
+  default: true

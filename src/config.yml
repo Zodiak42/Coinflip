@@ -1,0 +1,34 @@
+# Time between each bet (in seconds) - Useful for spamming protection
+Time: 60
+
+# Maximum bet amount
+Maximum: 1000000.0
+
+# Messages from the plugin (if you want to translate those for your server in another language)
+Prefix: "&7[&cCoinflip&7] "
+
+ErrorWaitTime: "&cError: You have to wait %s seconds before coinflipping again."
+ErrorPlayerOffline: "&cError: %s is offline or doesn't exists."
+ErrorCannotPlayAgainstYourself: "&cError: You cannot play coinflip against yourself!"
+ErrorInvalidNumber: "&cError: %s is not a valid number."
+ErrorNegativeBet: "&cError: You must place a positive bet."
+ErrorExceedsMaximum: "&cError: Your bet exceeds the maximum bet value allowed."
+ErrorNotEnoughMoney: "&cError: You don't have enough money."
+ErrorNotEnoughMoneyOther: "&cError: %s don't have enough money."
+ErrorAcceptedNotEnoughMoney: "&c%s accepted your coinflip, but you no longer have enough money to play."
+ErrorAcceptedNotEnoughMoneyOther: "&c%s accepted your coinflip, but no longer has enough money to play."
+ErrorDidNotPlacedBetAgainstYou: "&c%s did not placed a bet against you. To place one against him, do /cf %s <amount>"
+
+PreviousBetCancelled: "&eYour previous bet against %s has been cancelled."
+BetPlacedByCancelled: "&eThe bet %s had placed against you has been cancelled."
+BetPlaced: "&aYou have placed a bet of $ %sv against %sp."
+BetPlacedAgainstYou: "%sp placed a coinflip bet of $ %sv against you! To play, do /cf %sp confirm."
+
+ConfirmedYouWon: "&aYou've played coinflip against %sp, and won! You doubled your bet, and won $ %sv."
+ConfirmedYouLost: "&cYou've played coinflip against %sp, and lost. You lost $ %sv."
+OtherConfirmedYouWon: "&a%sp played coinflip against you, and you won! You doubled your bet, and won $ %sv."
+OtherConfirmedYouLost: "&c%sp played coinflip against you, and you lost. You lost $ %sv."
+
+Help0: "&cHelp:"
+Help1: "&c/cf <player> <amount>&7: Place a coinflip bet against a player."
+Help2: "&c/cf <player> confirm&7: Confirm a player's bet against you and play coinflip."
